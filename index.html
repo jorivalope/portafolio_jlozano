@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi portafolio</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- Imagenes para agregar al fondo -->
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.svg" class="shape square" alt="" />
+          <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.svg"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.svg" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.svg" class="shape triangle" alt="" />
+          <img src="./img/shapes/circles.svg" class="circles" alt="" />
+          <img src="./img/shapes/points1.svg" class="points points1" alt="" />
+        </div>
+
+        <!-- Barra de navegación principal -->
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html">J<span>L</span></a>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Servicios</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portafolio</a>
+                </li>
+                <li>
+                  <a href="#about">Acerca de</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonios</a>
+                </li>
+                <li>
+                  <a href="#contact">Contácto</a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/+573186318463"
+                    target="_blank"
+                    class="active"
+                    >WhatsApp</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Menu hamburguesa para agregar en movil -->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Contenido para el header -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <!-- Titulo principal -->
+              <h1 class="header-title">Jorge <span>Lozano</span></h1>
+              <p class="text">
+                Hola, Soy Jorge Lozano, Gerente de Proyectos. Soy líder multifuncional que 
+                coordina y dirige todos los aspectos de un proyecto para lograr sus objetivos 
+                de manera exitosa y eficiente. Con la capacidad para gestionar recursos, 
+                comunicarse de manera efectiva y adaptarse a las circunstancias cambiantes 
+                que garanticen el éxito del proyecto.!
+              </p>
+              <!-- Boton de descarga de CV -->
+              <a download href="#" target="_blank">
+                <button class="btn">Descargar CV</button>
+              </a>
+            </div>
+            <!-- Imagen principal para el header -->
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.svg"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/pexels-pixabay-220453.jpg" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Sección de servicios -->
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Lo que hago">Servicios</h3>
+            <p class="text">
+              Los principales servicos que ofrezco son:
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Coaching</h3>
+                  <p class="text">
+                    A través de conversaciones reflexivas, proporciono orientación, 
+                    apoyo y retroalimentación con el propósito de fomentar el crecimiento, 
+                    el desarrollo y el logro de metas específicas.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Gerencia de Proyectos</h3>
+                  <p class="text">
+                    Asegurar que el proyecto se complete con éxito dentro del alcance, plazo, presupuesto y calidad establecidos.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <!--<div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.svg" class="icon" alt="" />
+                  <h3 class="title-sm">Desarrollo de Apps</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum hic veniam nihil.
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de proyectos -->
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.svg" class="shape square" alt="" />
+            <img src="./img/shapes/wave.svg" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.svg"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Mis proyectos">Portafolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter button-group">
+              <button class="filter-btn active" data-filter="*">Todo</button>
+              <button class="filter-btn" data-filter=".ui">Proyectos</button>
+              <button class="filter-btn" data-filter=".webdev">Educacion</button>
+              <button class="filter-btn" data-filter=".appdev">Apps</button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Diseño
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Proyectos exitosos</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Educación en gerencia de proyectos</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño UI / UX</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Coaching en proyectos</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño de Logo</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desarrollo de Apps</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Diseño WEB</h3>
+                      <h5>Ver demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <div class="more-folio">
+              <a href="#" class="btn">Mas proyectos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección blog y testimonios -->
+
+      <section class="blog section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Últimos post">Mi Blog</h3>
+            <p class="text">
+              Encuentre aqui información de interes sobre el mundo de 
+              la gerencia de proyectos y del desarrollo de software.
+            </p>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.svg"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog1.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Marzo, 19 2023</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">Genere Historias de Usuario exitosas</h3>
+                  <p class="blog-text">
+                    Una HU exitosa está  diseñada para capturar  los requisitos 
+                    esenciales y las necesidades del usuario, de manera que el 
+                    equipo de desarrollo pueda comprender y cumplir con esas 
+                    expectativas.
+                  </p>
+                  <a href="#" class="btn small">Leer más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog2.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Julio, 15 2023</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">Nuevas tendencias en desarrollo de software</h3>
+                  <p class="blog-text">
+                    Ultimas noticias sobre temas con IA, DevOps, Cloud, Microservicios, 
+                    Realidad Aumentada, Realidad Virtual, Low Code, entre otros.
+                  </p>
+                  <a href="#" class="btn small">Leer más</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Mayo, 12 2023</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">Coaching</h3>
+                  <p class="blog-text">
+                    Reflexiona sobre tus propias fortalezas, debilidades, 
+                    valores y motivaciones. Cuanto mejor te conozcas a ti 
+                    mismo, más efectivo será el proceso de coaching.
+                  </p>
+                  <a href="#" class="btn small">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Qué dicen de nosotros">
+              Testimonios
+            </h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium adipisci veniam debitis quas, sapiente
+                      repellendus mollitia. Laboriosam labore voluptate quos?
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Maria Martinez</h3>
+                      <h5 class="review-job">Fotógrafa, Bogotá</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Fugiat voluptate consequatur aut tenetur fugit error
+                      molestiae quaerat ex odio rem?
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Esteban Montes</h3>
+                      <h5 class="review-job">CEO, Empresa</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cupiditate voluptatum enim nemo quod amet dolorum aliquam,
+                      sapiente omnis eaque consectetur.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Jack Costa</h3>
+                      <h5 class="review-job">Director de THR, Cali</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Perspiciatis ab incidunt, dicta quam inventore ipsum
+                      dolor. Consectetur nam incidunt error!
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Andrés Morales</h3>
+                      <h5 class="review-job">Ingeniero, Medellín</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/testi.svg" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+
+      <section class="contact" id="contact">
+        <iframe
+          src="https://maps.google.com/maps?q=Bogota&t=&z=10&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en contacto</h3>
+              <p class="text">
+                Si estas interesado en nuestros servicios por favor 
+                envianos tus datos y te contactaremos lo antes posible!! 
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Bogotá. Colombia</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">lorem@ipsum.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">123-456-789</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <h3 class="title">Contáctame</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Nombre" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Celular"
+                />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Enviar</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Hablemos de tu proyecto</h3>
+          <p class="text">
+            Si deseas que te apoyemos en lograr que tu proyecto sea exitoso contactanos a través de WhatsApp,
+            y entablemos una fructifera conversación que nos permita entender tu necesidad y ofrecerte la 
+            ayuda que requieres.
+          </p>
+          <a href="https://wa.me/+573186318463" target="_blank" class="btn"
+            >WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Sección pie de página -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#">Diseño WEB</a>
+              </li>
+              <li>
+                <a href="#">Desarrollo WEB</a>
+              </li>
+              <li>
+                <a href="#">Diseño de Apps</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">Diseño UI/UX</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 Todos los derechos reservados | Hecho por
+              <span class="split-text" data-text="FORUM"
+                ><a href="#"> Jorge Lozano </a></span
+              >
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
